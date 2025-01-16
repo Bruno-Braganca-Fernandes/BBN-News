@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Work Sans", serif;
+}
+
+.container {
+    border-bottom: 1px solid #ccc;
+
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-icon {
+    font-size: 3.5rem;
+    color: #6a0dad;
+}
+
+.news-text {
+    font-size: .9rem;
+    font-weight: 700;
+    color: #838383;
+    text-transform: uppercase;
+}
+
+.main-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.theme-toggle {
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: #ffc107;
+    transition: color 0.3s ease;
+}
+
+.theme-toggle.dark-mode {
+    font-size: 1rem;
+    color: #6a0dad;
+}
+
+li {
+    font-weight: 800;
+    font-size: 1.3rem;
+    color: #000;
+}
