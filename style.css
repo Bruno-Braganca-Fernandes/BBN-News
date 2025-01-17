@@ -9,11 +9,11 @@ body.bg-dark {
     color: #ccc;
 }
 
-body.bg-white .container {
+body.bg-white .container:not(.hashtags-menu .container) {
     border-bottom: 1px solid #ccc;
 }
 
-body.bg-dark .container {
+body.bg-dark .container:not(.hashtags-menu .container) {
     border-bottom: 1px solid #5555556b;
 }
 
@@ -60,7 +60,7 @@ body.bg-dark .nav-link {
     color: #ccc;
 }
 
-li {
+header li {
     font-weight: 800;
     font-size: 1.3rem;
 }
@@ -95,4 +95,30 @@ body.bg-dark .custom-dropdown .dropdown-item {
 
 body.bg-dark .custom-dropdown .dropdown-item:hover {
     color: #6428ec;
+}
+
+body.bg-white .hashtag-container {
+    background-color: #F5F5F5 !important;
+}
+
+body.bg-dark .hashtag-container {
+    background-color: #1D1D1D !important;
+}
+
+.hashtag-container {
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.2);
+}
+
+body.bg-dark .hashtag-container {
+    background-color: #1d1d1d;
+    box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.9);
+}
+
+.hashtag-container {
+    border-bottom: 1px solid #ccc;
+}
+
+body.bg-dark .hashtag-container {
+    border-bottom: 1px solid #5555556b;
 }
