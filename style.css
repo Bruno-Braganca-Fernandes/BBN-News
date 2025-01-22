@@ -122,3 +122,12 @@ body.bg-dark .hashtag-container {
 body.bg-dark .hashtag-container {
     border-bottom: 1px solid #5555556b;
 }
+
+.sidebar-right {
+    height: 20rem;
+
+}
+
+.custom-bg-dark {
+    background-color: #12121236;
+}
