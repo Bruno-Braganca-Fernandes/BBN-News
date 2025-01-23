@@ -123,11 +123,24 @@ body.bg-dark .hashtag-container {
     border-bottom: 1px solid #5555556b;
 }
 
-.sidebar-right {
-    height: 20rem;
+img {
+    object-fit: cover;
+}
 
+#mainCarousel .carousel-item img {
+    height: 37.19rem;
+}
+
+.sidebar-right {
+    height: 17rem;
 }
 
 .custom-bg-dark {
-    background-color: #12121236;
+    background-color: #00000075;
+    border: none;
+}
+
+.card-text {
+    padding-top: 13rem;
+    line-height: 1.1;
 }
