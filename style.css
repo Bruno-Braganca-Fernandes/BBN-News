@@ -135,12 +135,20 @@ img {
     height: 17rem;
 }
 
+.sidebar-left {
+    height: 11rem;
+}
+
 .custom-bg-dark {
     background-color: #00000075;
     border: none;
 }
 
+body.bg-dark .sidebar-left-background {
+    background-color: #121212 !important;
+    color: #ccc;
+}
+
 .card-text {
-    padding-top: 13rem;
     line-height: 1.1;
 }
