@@ -16,3 +16,31 @@ themeToggle.addEventListener('click', function () {
         themeToggle.classList.replace('white-mode', 'dark-mode')
     }
 })
+
+function onYouTubeIframeAPIReady() {
+    new YT.Player('youtube-video', {
+        videoId: 'junJU-qj92k',
+        playerVars: {
+            autoplay: 1,
+            mute: 1,
+            controls: 0,
+            showinfo: 0,
+            rel: 0,
+            start: 0,
+            end: 5,
+            modestbranding: 1,
+        },
+        events: {
+            onReady: function (event) {
+                event.target.playVideo();
+            },
+            onStateChange: function (event) {
+                if (event.data === YT.PlayerState.ENDED) {
+                    event.target.seekTo(0); // Voltar para o início
+                    event.target.playVideo(); // Recomeçar a reprodução
+                }
+            }
+        }
+    });
+}
+
