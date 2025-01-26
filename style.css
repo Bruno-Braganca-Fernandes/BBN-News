@@ -152,3 +152,13 @@ body.bg-dark .sidebar-left-background {
 .card-text {
     line-height: 1.1;
 }
+
+.col-md-3 .d-flex.gap-3:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+body.bg-dark .col-md-3 .d-flex.gap-3 {
+    color: #ccc;
+}
