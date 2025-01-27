@@ -162,3 +162,30 @@ body.bg-dark .sidebar-left-background {
 body.bg-dark .col-md-3 .d-flex.gap-3 {
     color: #ccc;
 }
+
+.custom-hover {
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+.custom-hover::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #6428ec;
+    transition: width 0.3s ease-in-out;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+}
+
+.custom-hover:hover {
+    color: #6428ec !important;
+    cursor: pointer;
+}
+
+.custom-hover:hover::after {
+    width: 100%;
+}

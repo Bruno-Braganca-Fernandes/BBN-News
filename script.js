@@ -36,8 +36,8 @@ function onYouTubeIframeAPIReady() {
             },
             onStateChange: function (event) {
                 if (event.data === YT.PlayerState.ENDED) {
-                    event.target.seekTo(0); // Voltar para o início
-                    event.target.playVideo(); // Recomeçar a reprodução
+                    event.target.seekTo(0);
+                    event.target.playVideo();
                 }
             }
         }
