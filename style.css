@@ -189,3 +189,28 @@ body.bg-dark .col-md-3 .d-flex.gap-3 {
 .custom-hover:hover::after {
     width: 100%;
 }
+
+.ad {
+    background-color: #f5f5f5;
+    padding: 0 1rem 1.5rem 1rem;
+}
+
+body.bg-dark .ad {
+    background-color: #1D1D1D;
+}
+
+h3:hover {
+    color: #6428ec;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+p:hover {
+    color: #6428ec;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+h5 p:hover {
+    color: inherit;
+}
