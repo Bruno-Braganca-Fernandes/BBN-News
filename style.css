@@ -17,6 +17,14 @@ body.bg-dark .container:not(.hashtags-menu .container) {
     border-bottom: 1px solid #5555556b;
 }
 
+body.bg-white .border-bottom {
+    border-bottom: 1px solid #ccc !important;
+}
+
+body.bg-dark .border-bottom {
+    border-bottom: 1px solid #5555556b !important;
+}
+
 .logo-wrapper {
     display: flex;
     align-items: center;
@@ -165,7 +173,6 @@ body.bg-dark .col-md-3 .d-flex.gap-3 {
 
 .custom-hover {
     text-decoration: none;
-    color: black;
     position: relative;
 }
 
@@ -213,4 +220,16 @@ p:hover {
 
 h5 p:hover {
     color: inherit;
+}
+
+.category-image-wrapper {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    transition: opacity 0.3s ease;
+}
+
+.category-image-wrapper:hover {
+    opacity: 0.8;
+    cursor: pointer;
 }
