@@ -9,19 +9,11 @@ body.bg-dark {
     color: #ccc;
 }
 
-body.bg-white .container:not(.hashtags-menu .container) {
-    border-bottom: 1px solid #ccc;
-}
-
-body.bg-dark .container:not(.hashtags-menu .container) {
-    border-bottom: 1px solid #5555556b;
-}
-
-body.bg-white .border-bottom {
+body.bg-white .custom-border-bottom {
     border-bottom: 1px solid #ccc !important;
 }
 
-body.bg-dark .border-bottom {
+body.bg-dark .custom-border-bottom {
     border-bottom: 1px solid #5555556b !important;
 }
 
@@ -231,5 +223,56 @@ h5 p:hover {
 
 .category-image-wrapper:hover {
     opacity: 0.8;
+    cursor: pointer;
+}
+
+.newsletter {
+    background-color: #F5F5F5;
+}
+
+body.bg-dark .newsletter {
+    background-color: #1D1D1D;
+    color: #ccc !important;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.form-control {
+    background-color: transparent;
+}
+
+body.bg-dark .form-control::placeholder {
+    color: #777;
+    font-size: medium;
+}
+
+.form-check-input:checked {
+    background-color: #000;
+    border-color: #000;
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+    border-color: #000;
+}
+
+.input-group .btn:hover {
+    background-color: #6428ec;
+}
+
+.input-group .btn {
+    background-color: #000;
+    border-color: transparent;
+}
+
+body.bg-dark .newsletter a {
+    color: #ccc !important;
+    border-bottom: 1px solid #ccc !important;
+}
+
+.newsletter a:hover {
     cursor: pointer;
 }

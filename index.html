@@ -17,7 +17,7 @@
 
 <body class="bg-white text-dark">
     <header>
-        <div class="navbar">
+        <div class="navbar custom-border-bottom">
             <div class="container p-4">
                 <div class="logo-wrapper">
                     <i class="bi bi-disc logo-icon"></i>
@@ -117,7 +117,7 @@
             <i class="bi bi-chevron-right"></i>
         </div>
     </nav>
-    <div class="container mt-5 ">
+    <div class="container mt-5 custom-border-bottom ">
         <div class="row ">
             <div class="col-md-3 ">
                 <div class="card border border-0 sidebar-left-background ">
@@ -219,7 +219,7 @@
                         <p class="mb-0"><small>3 months ago</small></p>
                     </div>
                 </div>
-                <div class="border-bottom mt-4"></div>
+                <div class="custom-border-bottom mt-4"></div>
 
                 <div class="d-flex border border-0 mt-2">
                     <div class="d-flex flex-column pe-5">
@@ -423,10 +423,43 @@
             </div>
         </div>
     </div>
+    <div class="container py-5 mt-5 newsletter mb-5 rounded">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-12 col-md-5">
+                <h2 class="fw-bold mb-0" style="font-size: 1.7rem;">
+                    Stay Informed With the Latest & Most Important News
+                </h2>
+            </div>
+            <div class="col-12 col-md-6 mt-4 mt-md-0">
+                <form>
+                    <div class="d-flex flex-column gap-3">
+                        <div class="input-group">
+                            <input type="email" class="form-control rounded-0 border border-0 custom-border-bottom"
+                                placeholder="Your email address">
+                            <button type="submit" class="btn btn-dark ">
+                                SUBSCRIBE
+                            </button>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-start gap-2 mt-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="privacyConsent" required>
+                        </div>
+                        <label class="form-check-label small fw-medium text-secondary" for="privacyConsent">
+                            I consent to receive newsletter via email. For further information, please review our
+                            <a class="text-black text-decoration-none border-bottom border-black">Privacy
+                                Policy</a>
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
 
 
-    <script src="./lib/bootstrap.bundle.min.js"></script>
+
+    <script src=" ./lib/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
     <script src="https://www.youtube.com/iframe_api"></script>
 </body>
